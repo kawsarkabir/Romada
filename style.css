@@ -53,6 +53,12 @@ body{
     color: #ff4a57;
     background-color: #fff;
 }
+.card-hover:hover .service-icon{
+    color: #fff;
+}
+.service-icon{
+    transition: .5s;
+}
 .about-section h1{
     font-size: 60px;
 }
@@ -85,6 +91,7 @@ body{
     font-size: 50px;
     color: #ff4a57;
 }
+
 .free{
     font-size: 40px;
 }
