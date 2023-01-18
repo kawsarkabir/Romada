@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90%;
 }
 .hero-content h1{
     font-size: 55px;
@@ -57,7 +57,27 @@ body{
 .about-section h1{
     font-size: 60px;
 }
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: .5s;
+    border: 1px solid #e0dfee;
+    color: #000;
+    
+}
+.list{}
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    font-size: 15px;
+    color: #858585;
+    line-height: 35px;
 
+}
 /* mwdia quere */
 @media only screen and(max-width :768px) {
     .hero-content h1{
